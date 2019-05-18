@@ -31,8 +31,9 @@ src/dest >> <ftp/sftp>://<username>:<password>@<Host>:<Port><DirPath>
 ```
 Eg.
 
-ftp://user:password@localhost:21/home
-sftp://user:password@localhost:22/home
+ftp://user:password@localhost:21/home/
+
+sftp://user:password@localhost:22/home/
 
 
 
