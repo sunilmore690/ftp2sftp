@@ -30,10 +30,10 @@ It'll transfter all files from source server to destination server
 src/dest >> <ftp/sftp>://<username>:<password>@<Host>:<Port><DirPath>
 ```
 Eg.
+```
+ftp2sftp ftp://user:password@localhost:21/home/ sftp://user:password@localhost:22/home/
 
-ftp://user:password@localhost:21/home/
-
-sftp://user:password@localhost:22/home/
+```
 
 
 
