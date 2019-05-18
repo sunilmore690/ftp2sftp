@@ -1,6 +1,6 @@
 {
   "name": "ftp2sftp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Transfer files from one FTP/SFTP server to another FTP/SFTP server",
   "main": "./lib/index.js",
   "bin": {
@@ -12,19 +12,8 @@
   "keywords": [
     "ftp",
     "sftp",
-    "ftp",
-    "to",
-    "sftp",
-    "sftp",
-    "to",
-    "ftp",
-    "ftp",
-    "to",
-    "ftp",
-    "sftp",
-    "to",
-    "sftp"
-  ],
+    "file transfer",
+    "sync" ],
   "author": "Sunil More",
   "license": "ISC",
   "dependencies": {
