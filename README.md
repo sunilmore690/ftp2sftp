@@ -1,5 +1,5 @@
 # ftp2sftp
-Transfer files from one FTP/SFTP server to another FTP/SFTP server
+CLI to transfer files from one FTP/SFTP server to another FTP/SFTP server
 # Installation
 
 Either through cloning with git or by using [npm](http://npmjs.org) (the recommended way):
