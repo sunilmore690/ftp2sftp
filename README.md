@@ -5,7 +5,7 @@ Transfer files from one FTP/SFTP server to another FTP/SFTP server
 Either through cloning with git or by using [npm](http://npmjs.org) (the recommended way):
 
 ```bash
-npm install -g ftp2sfpt
+npm install -g ftp2sftp
 ```
 
 And nodemon will be installed globally to your system path.
@@ -13,7 +13,7 @@ And nodemon will be installed globally to your system path.
 If you don't want to install this package globally use npx to use this package
 
 ```bash
-npx ftp2ftp <src> <dest>
+npx ftp2sftp <src> <dest>
 ```
 
 
