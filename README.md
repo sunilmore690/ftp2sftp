@@ -19,7 +19,7 @@ npx ftp2sftp <src> <dest>
 
 # Usage
 
-you need to pass 2 agument wraps your application, so you can pass all the arguments you would normally pass to your app:
+you need to pass 2 agument.
 
 ```bash
 ftp2sftp <src> <dest>
