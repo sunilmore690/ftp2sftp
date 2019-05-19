@@ -1,6 +1,6 @@
 {
   "name": "ftp2sftp",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Transfer files from one FTP/SFTP server to another FTP/SFTP server",
   "main": "./lib/index.js",
   "bin": {
@@ -20,6 +20,6 @@
     "cli-progress": "^2.1.1",
     "ftp": "^0.3.10",
     "ssh2-sftp-client": "^2.5.0",
-    "colors":"colors"
+    "colors":"*"
   }
 }
