@@ -1,5 +1,7 @@
 # ftp2sftp
 CLI to transfer files from one FTP/SFTP server to another FTP/SFTP server
+
+<img src='https://raw.githubusercontent.com/sunilmore690/ftp2sftp/master/demo.png' alt='ftp2sftp Demo'>
 # Installation
 
 Either through cloning with git or by using [npm](http://npmjs.org) (the recommended way):
@@ -34,6 +36,7 @@ Eg.
 ftp2sftp ftp://user:password@localhost:21/home/ sftp://user:password@localhost:22/home/
 
 ```
+
 
 
 
