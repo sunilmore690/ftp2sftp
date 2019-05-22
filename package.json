@@ -1,6 +1,6 @@
 {
   "name": "ftp2sftp",
-  "version": "2.9.0",
+  "version": "2.9.1",
   "description": "Transfer files from one FTP/SFTP server to another FTP/SFTP server",
   "main": "./lib/index.js",
   "bin": {
