@@ -1,6 +1,12 @@
 # ftpcp
 
-CLI to transfer files from one FTP/SFTP server to another FTP/SFTP server
+**ftpcp**  is a command line utility that allows you to copy files between two locations.
+
+With **ftpcp**, you can copy a files
+
+  - From your local system to a remote system.
+  - From a remote system to your local system.
+  - Between two remote systems from your local system.
 
 <img src='https://raw.githubusercontent.com/sunilmore690/ftp2sftp/master/demo.png' alt='ftpcp Demo'>
 
@@ -22,7 +28,6 @@ npx ftpcp <src> <dest>
 
 # Usage
 
-you need to pass 2 agument.
 
 ```bash
 $ftpcp --help
