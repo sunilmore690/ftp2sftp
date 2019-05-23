@@ -43,19 +43,19 @@ src/dest >> <ftp/sftp>://<username>:<password>@<Host>:<Port><DirPath>
 
 Eg.
 
-1. Copy files from remote ftp server to your local dir path
+1. **Copy files from remote ftp server to your local dir path**
 
 `ftpcp ftp://user:password@localhost:21/path/to/dir /usr/local/dir/`
 
-2. Copy files from your local dir to remote server dir
+2. **Copy files from your local dir to remote server dir**
 
 `ftpcp /usr/local/dir/ ftp://user:password@localhost:21/path/to/dir`
 
-3. Copy files from one FTP remote to another SFTP remote server and viceversa.
+3. **Copy files from one FTP remote to another SFTP remote server and viceversa.**
 
    `ftpcp ftp://user:password@remote1:21/path/to/dir sftp://user:password@remote2:22/path/to/dir`
 
    `ftpcp sftp://user:password@remote1:22/path/to/dir ftp://user:password@remote1:21/path/to/dir`
-4. Include and exclude some files
+4. **Include and exclude some files**
 
   `ftpcp --includes *.csv,*.jpg --excludes *.zip <SRC> <DEST>`
