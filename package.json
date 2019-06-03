@@ -1,7 +1,7 @@
 {
   "name": "ftpcp",
-  "version": "1.6.1",
-  "description": "Transfer files from one FTP/SFTP server to another FTP/SFTP server",
+  "version": "1.6.2",
+  "description": "ftpcp is a command line utility to copy files from one Local/FTP/SFTP server to another Local/FTP/SFTP server",
   "main": "./lib/index.js",
   "bin": {
     "ftpcp": "./lib/index.js"

@@ -1,7 +1,6 @@
 
 # ftpcp
 
-  
 
 **ftpcp** is a command line utility that allows you to copy files between two locations.
 
@@ -25,30 +24,17 @@ With **ftpcp**, you can copy a files
 
 # Installation
 
-  
 Either through cloning with git or by using [npm](http://npmjs.org) (the recommended way):
 
-  
-
-```bash
-
-npm install -g ftpcp
 
 ```
-
-  
-
-
-  
+npm install -g ftpcp
+```
 
 If you don't want to install this package globally use npx to use this package
 
-  
-
-```bash
-
+```
 npx ftpcp <src>  <dest>
-
 ```
 
   
@@ -85,9 +71,7 @@ It'll transfter all files from source server to destination server
   
 
 ```
-
 src/dest >> <ftp/sftp>://<username>:<password>@<Host>:<Port><DirPath>
-
 ```
 
   
@@ -98,27 +82,21 @@ src/dest >> <ftp/sftp>://<username>:<password>@<Host>:<Port><DirPath>
 
 **Copy files from remote ftp server to your local dir path**
 ```
-
 ftpcp ftp://user:password@localhost:21/path/to/dir /usr/local/dir/
-
 ```
 
  **Copy files from your local dir to remote server dir**
 ```
-
 ftpcp /usr/local/dir/ ftp://user:password@localhost:21/path/to/dir
-
 ```
 
  **Copy files from one FTP remote to another SFTP remote server and viceversa.**
 
  
 ```
-
 ftpcp ftp://user:password@remote1:21/path/to/dir sftp://user:password@remote2:22/path/to/dir
 
 ftpcp sftp://user:password@remote1:22/path/to/dir ftp://user:password@remote1:21/path/to/dir
-
 ```
 
   **Include and exclude some files**
